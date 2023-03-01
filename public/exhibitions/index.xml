@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exhibitions on Pattern Library</title>
+    <link>http://example.org/exhibitions/</link>
+    <description>Recent content in Exhibitions on Pattern Library</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Feb 2023 16:53:55 +0000</lastBuildDate><atom:link href="http://example.org/exhibitions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What if we could talk to the Earth?</title>
+      <link>http://example.org/exhibitions/test-post/</link>
+      <pubDate>Tue, 28 Feb 2023 16:53:55 +0000</pubDate>
+      
+      <guid>http://example.org/exhibitions/test-post/</guid>
+      <description>kadsfjasdjf</description>
+    </item>
+    
+  </channel>
+</rss>
