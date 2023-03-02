@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+
+<p>Virtual gallery focusing on artists exploring 
+    software,
+    digital proximity,
+    rendering,
+    data,
+    algorithms,
+    communication,
+    mapping, dreams and
+    data visualisation.
+</p>
+
+<section class = 'exhibitions'>
+    <h2>Exhibitions</h2>
+    {{ range ( where .Site.RegularPages "Type" "exhibitions" ) }}
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    {{end}}
+</section>
+
+
+
+{{ .Content }}
+
+<footer>
+    {{ partial "footer.html" . }}
+</footer>
+
